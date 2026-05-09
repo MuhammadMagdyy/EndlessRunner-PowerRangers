@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7271553967043857456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6878113779742466534}
+  - component: {fileID: 6879872055898548796}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6878113779742466534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271553967043857456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6879872055898548796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271553967043857456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007ffebdf30b5164cbc558538e93d60d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Main Theme
+    clip: {fileID: 8300000, guid: 52572a985ec3f394996fb63081c41c99, type: 3}
+    volume: 0.35
+    loop: 1
+    source: {fileID: 0}
+  - name: Red
+    clip: {fileID: 8300000, guid: c9e3564bc96bc634facbfc8097cb5644, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Green
+    clip: {fileID: 8300000, guid: 66db940044aa864489b862f3b92540c3, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Collecting Orb
+    clip: {fileID: 8300000, guid: 66a0fa2a7148de64284736cd3b2773ee, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: Blue
+    clip: {fileID: 8300000, guid: 987d4c97e91772e44a6a74ecaa4c938f, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: c03a706f41b153e44a298fead319a12a, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 32e3c78c584d265409d9b31b61ce4ddf, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: BlueShield
+    clip: {fileID: 8300000, guid: 2598985ea791b644eb99c648f2a65d4a, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Switch 1
+    clip: {fileID: 8300000, guid: e47843e19a783fd4a84a84c8ac3bfcf8, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Switch 2
+    clip: {fileID: 8300000, guid: 2b09ddee230035c469e3fc1d702d08d4, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Switch 3
+    clip: {fileID: 8300000, guid: 57d51dda5ac4bb94c93c291118f8eb2d, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
