@@ -28,7 +28,7 @@ When in a specific form, you can trigger a unique power using the **Space Bar** 
 | **🟢 Green** | **Multiplier** | The next orb collected gives 5x score and 2x energy. |
 | **🔵 Blue** | **Shield** | Protects the player from exactly one obstacle collision. |
 
-![Power Activation](./screenshots/powers.png)
+![Power Activation](./Screenshots/gameplay_action.png)
 *Figure 2: Visual feedback during Power-up activation.*
 
 ---
@@ -42,7 +42,7 @@ When in a specific form, you can trigger a unique power using the **Space Bar** 
 
 ## 🖥 User Interface (UI)
 
-![UI Menu](./screenshots/menu.png)
+![UI Menu](./Screenshots/main_menu.png)
 *Figure 3: The Main Menu featuring Play, Options, and Credits.*
 
 * **HUD:** Displays real-time numerical values for Red, Green, and Blue energy, alongside the current Score.
