@@ -7,7 +7,7 @@ An endless runner game developed in **Unity** and **C#**, featuring form-switchi
 ## 🎮 Gameplay Overview
 The game follows the mechanics of a 3-lane infinite runner. The player controls a sphere moving forward automatically, aiming for the highest score while managing energy resources and avoiding lethal obstacles.
 
-![Gameplay Screenshot](./screenshots/gameplay_preview.png)
+![Gameplay Screenshot](./Screenshots/gameplay_preview.png)
 *Figure 1: The 3-lane environment featuring procedural item generation.*
 
 ### Core Mechanics
