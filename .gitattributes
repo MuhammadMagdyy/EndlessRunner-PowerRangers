@@ -1,1 +1,14 @@
+# Ignore Unity metadata files from language statistics
+*.meta linguist-vendored
+*.asset linguist-vendored
+*.unity linguist-vendored
+*.prefab linguist-vendored
+*.mat linguist-vendored
 
+# Ignore library or build folders
+Library/* linguist-vendored
+Temp/* linguist-vendored
+Build/* linguist-vendored
+
+# Ensure C# is the star of the show
+*.cs linguist-detectable
